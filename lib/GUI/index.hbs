@@ -43,7 +43,7 @@
             <div class="navbar-right">
               <form class="navbar-form navbar-right">
                 {{#if username}}
-                <p class="white no-bg pad-right-10 inline-block">Hi {{username}}</p>
+                <button type="submit" class="white btn btn-link inline-block" data-toggle="modal" data-target="#token-form" onclick="return false">Hi {{username}}</button>
                 <button type="submit" class="btn btn-danger inline-block js-userLogoutBtn">Logout</button>
                 {{else}}
                 <button type="submit" class="btn btn-danger inline-block" data-toggle="modal" data-target="#login-form" onclick="return false">Login</button>
@@ -118,6 +118,27 @@
               <button type="submit" class="btn btn-primary">Log in</button>
             </div>
           </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="token-form"  role="dialog" aria-labelledby="login-form-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h5 class="modal-title" id="login-form-label">NPM token</h5>
+          </div>
+
+          <div class="modal-body">
+            <p>Your npm token is <b>{{ token }}</b></p>
+            <p>Copy the following line to your home <b>.npmrc</b> file:</p>
+              <p>//localhost:4873/:_authToken={{token}}</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+
         </div>
       </div>
     </div>
