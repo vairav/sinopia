@@ -1352,6 +1352,10 @@
       "version": "0.4.5",
       "from": "sinopia-htpasswd@>=0.4.3",
       "resolved": "https://registry.npmjs.org/sinopia-htpasswd/-/sinopia-htpasswd-0.4.5.tgz"
+    },
+    "sinopia-memory": {
+      "version": "0.0.1",
+      "from": "sinopia-memory@latest"
     }
   }
 }
