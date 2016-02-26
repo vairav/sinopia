@@ -111,6 +111,9 @@
               </div>
             </div>
             <div class="modal-footer">
+               {{#if githubLoginUrl}}
+                  <a class="btn btn-success pull-left" href="{{ githubLoginUrl }}">Use GitHub</a>
+               {{/if}}
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               <button type="submit" class="btn btn-primary">Log in</button>
             </div>
