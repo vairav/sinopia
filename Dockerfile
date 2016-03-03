@@ -6,6 +6,7 @@ LABEL version="1.0"
 
 LABEL description="Private npm registry based in sinopia"
 
+
 RUN npm install -g nan@2.2.0
 WORKDIR /root/sinopia
 RUN git clone https://github.com/fl4re/sinopia.git src
