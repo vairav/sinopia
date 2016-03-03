@@ -10,7 +10,7 @@
   </head>
   <body class="body">
     <header class="main-header">
-      <nav class="navbar navbar-default red-bg white no-border no-rnd-cnr" role="navigation">
+      <nav class="navbar navbar-default black-bg white no-border no-rnd-cnr" role="navigation">
         <div class="container">
           <div class="navbar-header clearfix">
             <div class="npm-logo brand">
@@ -34,8 +34,7 @@
           <div class="navbar-left hidden-xs">&nbsp;&nbsp;</div>
 
           <div class="navbar-left setup hidden-xs">
-            <code class="white no-bg">npm set registry {{ baseUrl }}</code><br>
-            <code class="white no-bg">npm adduser --registry {{ baseUrl }}</code>
+            <code class="white no-bg">npm config set @sbz:registry {{ baseUrl }}</code><br>
           </div>
 
           <!-- login/logout for large devices -->
