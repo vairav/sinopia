@@ -102,10 +102,8 @@
 
           <div class="modal-body">
             <p>Your npm token is <b>{{ token }}</b></p>
-            <p>Copy the following to your home (or project) <b>.npmrc</b> file:</p>
-              <pre>
-registry = {{ baseUrl }}
-{{ npmUrl }}/:_authToken={{token}}</pre>
+            <p>Append the following line to your home <b>.npmrc</b> file:</p>
+              <pre>{{ npmUrl }}/:_authToken={{token}}</pre>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
