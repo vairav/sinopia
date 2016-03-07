@@ -25,6 +25,7 @@
                 <button type="submit" class="btn btn-danger inline-block js-userLogoutBtn">Logout</button>
                 {{else}}
                 <p class="white no-bg navbar-text pad-right-10 inline-block">&nbsp;</p>
+                <a class="btn btn-primary pull-left" href="{{ googleLoginUrl }}">Google Login</a>
                 <a class="btn btn-danger pull-left" href="{{ githubLoginUrl }}">GitHub Login</a>
                 {{/if}}
               </div>
@@ -45,6 +46,7 @@
                 <button type="submit" class="white btn btn-link inline-block" data-toggle="modal" data-target="#token-form" onclick="return false">Hi {{username}}</button>
                 <button type="submit" class="btn btn-danger inline-block js-userLogoutBtn">Logout</button>
                 {{else}}
+                <a class="btn btn-primary pull-left" href="{{ googleLoginUrl }}">Google Login</a>
                 <a class="btn btn-danger pull-left" href="{{ githubLoginUrl }}">GitHub Login</a>
                 {{/if}}
               </form>
