@@ -741,7 +741,7 @@
                         "inherits": {
                           "version": "2.0.1",
                           "from": "inherits@>=2.0.1 <2.1.0",
-                          "resolved": "https://registry.starbreeze.com/inherits/-/inherits-2.0.1.tgz"
+                          "resolved": "https://registry.npmjs.com/inherits/-/inherits-2.0.1.tgz"
                         },
                         "typedarray": {
                           "version": "0.0.6",
@@ -903,7 +903,7 @@
                         "inherits": {
                           "version": "2.0.1",
                           "from": "inherits@>=2.0.1 <2.1.0",
-                          "resolved": "https://registry.starbreeze.com/inherits/-/inherits-2.0.1.tgz"
+                          "resolved": "https://registry.npmjs.com/inherits/-/inherits-2.0.1.tgz"
                         },
                         "typedarray": {
                           "version": "0.0.6",
@@ -1002,7 +1002,7 @@
                         "inherits": {
                           "version": "2.0.1",
                           "from": "inherits@>=2.0.1 <2.1.0",
-                          "resolved": "https://registry.starbreeze.com/inherits/-/inherits-2.0.1.tgz"
+                          "resolved": "https://registry.npmjs.com/inherits/-/inherits-2.0.1.tgz"
                         },
                         "isarray": {
                           "version": "0.0.1",
@@ -1285,7 +1285,7 @@
                     "inherits": {
                       "version": "2.0.1",
                       "from": "inherits@>=2.0.1 <2.1.0",
-                      "resolved": "https://registry.starbreeze.com/inherits/-/inherits-2.0.1.tgz"
+                      "resolved": "https://registry.npmjs.com/inherits/-/inherits-2.0.1.tgz"
                     },
                     "isarray": {
                       "version": "0.0.1",
