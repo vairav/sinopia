@@ -11,7 +11,7 @@ RUN npm install -g nan@2.2.0
 WORKDIR /root/sinopia
 RUN git clone https://github.com/fl4re/sinopia.git src
 WORKDIR /root/sinopia/src
-RUN git checkout github_oauth_login
+RUN git checkout OAuth_login
 RUN npm install
 WORKDIR /root/sinopia
 
