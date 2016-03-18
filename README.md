@@ -1,3 +1,14 @@
+I've been using Sinopia for quite sometime and its becoming a big problem to add users, remove them, or for the matter let users to change their own passwords.  So finally after hesitating for a while, I've decided to move forward with adding new features, fixing bugs and publishing them back to the community.
+
+For now, I've been very happy with NpmJS's private hosting, but at times I feel that Sinopia requires few more features to make life easier.
+
+First off, I'm going to start with adding the following features:
+* [ ] - User Profile
+* [ ] - Ability to Add/Edit/Delete Users
+* [ ] - Maybe change the UI to be React/Redux completely using ES6
+
+-- Vairav
+
 `sinopia` - a private/caching npm repository server
 
 [![npm version badge](https://img.shields.io/npm/v/sinopia.svg)](https://www.npmjs.org/package/sinopia)
